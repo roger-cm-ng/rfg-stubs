@@ -1,11 +1,11 @@
 {
-  "name": "gen-react-stubs",
-  "version": "0.1.1",
+  "name": "rfg-stubs",
+  "version": "0.0.1",
   "preferGlobal": true,
   "bin": {
-    "gen-react-stubs": "index.js"
+    "rfg-stubs": "index.js"
   },
-  "description": "Generate react component stubs",
+  "description": "Generate Rainforest Maths game stubs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,31 +21,5 @@
     "optimist": "^0.6.1",
     "path-type": "^1.1.0",
     "titlecase": "^1.1.2"
-  },
-  "gitHead": "f54bdc9136b016c5a6ba38057cac3a0b8db243b5",
-  "_id": "gen-react-stubs@0.1.1",
-  "_shasum": "6b179ed833c3648771f85ad176510e81295f6a15",
-  "_from": "gen-react-stubs@latest",
-  "_npmVersion": "3.10.8",
-  "_nodeVersion": "6.9.1",
-  "_npmUser": {
-    "name": "roger-cm-ng",
-    "email": "roger@creativexcitant.com"
-  },
-  "dist": {
-    "shasum": "6b179ed833c3648771f85ad176510e81295f6a15",
-    "tarball": "https://registry.npmjs.org/gen-react-stubs/-/gen-react-stubs-0.1.1.tgz"
-  },
-  "maintainers": [
-    {
-      "name": "roger-cm-ng",
-      "email": "roger@creativexcitant.com"
-    }
-  ],
-  "_npmOperationalInternal": {
-    "host": "packages-18-east.internal.npmjs.com",
-    "tmp": "tmp/gen-react-stubs-0.1.1.tgz_1485810870262_0.601754714967683"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/gen-react-stubs/-/gen-react-stubs-0.1.1.tgz"
+  }
 }
