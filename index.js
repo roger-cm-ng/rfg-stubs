@@ -20,7 +20,7 @@ pathType.dir(argv.g).then(function () {
 
   var dirPathName = './' + argv.g;
 
-  filendir.ws(dirPathName + '/images/.', styleScss());
+  filendir.ws(dirPathName + '/images/');
   filendir.ws(dirPathName + '/controller.js', controllerJs());
   filendir.ws(dirPathName + '/index.html', indexHtml());
   filendir.ws(dirPathName + '/index.js', indexJs());
