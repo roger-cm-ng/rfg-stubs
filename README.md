@@ -1,13 +1,6 @@
-gen-react-stubs
+rfg-stubs
 ===============
 
-###npm install gen-react-stubs -g
+###npm install rfg-stubs -g
 
-####Stateless component
-gen-react-stubs `--`c `<`component-name`>` `--`s
-
-####Redux component
-gen-react-stubs `--`c `<`component-name`>`
-
-####Bootstrap component
-gen-react-stubs `--`c `<`component-name`>` `--`b
+rfg-stubs `--`g `<`game-name`>`
