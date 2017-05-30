@@ -1,6 +1,6 @@
 {
   "name": "rfg-stubs",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "preferGlobal": true,
   "bin": {
     "rfg-stubs": "index.js"
