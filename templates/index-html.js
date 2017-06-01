@@ -16,11 +16,14 @@ module.exports = function(compTitle, fileName) {
 <div ng-controller="controller">
     <div class="app">
         <work-area
-                menu="menu"
-                next="next"
-                onnumberclick="checkClick"
-                getscoreboard="getScoreboard"
-                header="header">
+            menu="menu"
+            header="header"
+            getscoreboard="getScoreboard"
+            next="next"
+            onnumberclick="onNumberClick"
+            plus="plus"
+            minus="minus"
+        >
 
             <!-- Game specific elements -->
 
