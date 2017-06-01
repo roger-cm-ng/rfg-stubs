@@ -1,7 +1,21 @@
 require('babel-register')();
 
 module.exports = function(compTitle, fileName) {
-  return `@font-face {
+  return `@import "../common/styles/_colors.scss";
+@import "../common/styles/_common.scss";
+@import "../common/styles/_game.scss";
+
+@font-face {
+  font-family: poppins;
+  src: url('../../assets/fonts/poppins-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: medium-poppins;
+  src: url('../../assets/fonts/poppins-medium.ttf') format('truetype')
+}
+
+@font-face {
   font-family: semi-bold-poppins;
   src: url('../../assets/fonts/poppins-semi-bold.ttf') format('truetype');
 }
@@ -61,6 +75,5 @@ body {
 
 .app {
 
-}
-`;
+}`;
 }
