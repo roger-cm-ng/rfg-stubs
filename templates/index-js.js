@@ -4,21 +4,21 @@ module.exports = function(compTitle, fileName) {
   return `import angular from 'angular';
 import ngSanitize from 'angular-sanitize';
 import angularUIRouter from 'angular-ui-router';
-import common from '../../compositions/common.js';
-import gameHeader from '../game-header';
-import gameFooter from '../game-footer';
-import gameSubMenu from '../game-sub-menu/index';
-import gameImages from '../game-images';
-import workArea from '../work-area';
-import leftPanel from '../panel-left';
-import rightPanel from '../panel-right';
-import bottomPanel from '../panel-bottom';
-import baseline from '../baseline';
-import numPad from '../num-pad';
-import sketchPad from '../sketch-pad';
-import infoPanel from '../info-panel';
-import scoreboard from '../scoreboard';
-import checkButton from '../check-button';
+import common from '../../../compositions/common.js';
+import gameHeader from '../../game-header';
+import gameFooter from '../../game-footer';
+import gameSubMenu from '../../game-sub-menu/index';
+import gameImages from '../../game-images';
+import workArea from '../../work-area';
+import leftPanel from '../../panel-left';
+import rightPanel from '../../panel-right';
+import bottomPanel from '../../panel-bottom';
+import baseline from '../../baseline';
+import numPad from '../../num-pad';
+import sketchPad from '../../sketch-pad';
+import infoPanel from '../../info-panel';
+import scoreboard from '../../scoreboard';
+import checkButton from '../../check-button';
 import controller from './controller';
 
 angular

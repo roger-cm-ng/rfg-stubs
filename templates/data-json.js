@@ -2,7 +2,7 @@ require('babel-register')();
 
 module.exports = function(compTitle, fileName) {
   return `{
-  "currentLevel": "",
+  "currentLevel": "a",
   "currentCategory": "",
   "game": {
     "home": {
@@ -29,7 +29,22 @@ module.exports = function(compTitle, fileName) {
       }
     },
     "menu": {
-      "left": null,
+      "left": {
+        "buttons": [
+          {
+            "path": "images/dot-paper.svg",
+            "state": "",
+            "params": "",
+            "href": "#/iframe/test-2"
+          },
+          {
+            "path": "images/grid-drag.svg",
+            "state": "",
+            "params": "",
+            "href": "#/iframe/test-3"
+          }
+        ]
+      },
       "right": true,
       "bottom": {
         "numPad": {

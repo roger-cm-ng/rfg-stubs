@@ -4,8 +4,13 @@ module.exports = function(compTitle, fileName) {
   return `import './style.scss';
 import gameData from './data.json';
 
-export default function controller($scope) {
+export default function controller($scope, RequireImages) {
   'ngInject';
+
+  parent.postMessage({
+    evt: 'STANDALONE_CONTROLLER',
+    obj: gameData.currentLevel
+  }, '*');
 
   $scope.menu = gameData.game.menu;
 
@@ -18,7 +23,7 @@ export default function controller($scope) {
   $scope.onNumberClick = function ($event, num) {};
 
   // $scope.plus  = function($event) {};
-  
+
   // $scope.minus = function($event) {};
 
 }`;
