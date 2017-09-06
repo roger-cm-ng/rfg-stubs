@@ -32,16 +32,16 @@ module.exports = function(compTitle, fileName) {
       "left": {
         "buttons": [
           {
-            "path": "images/dot-paper.svg",
+            "path": "",
             "state": "",
             "params": "",
-            "href": "#/iframe/test-2"
+            "href": ""
           },
           {
-            "path": "images/grid-drag.svg",
+            "path": "",
             "state": "",
             "params": "",
-            "href": "#/iframe/test-3"
+            "href": ""
           }
         ]
       },
