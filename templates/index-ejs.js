@@ -14,7 +14,7 @@ module.exports = function(compTitle, fileName) {
 <body>
 
 <div ng-controller="controller">
-    <div class="app">
+    <div class="app" ng-if="auth">
         <work-area
             menu="menu"
             header="header"
