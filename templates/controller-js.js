@@ -3,7 +3,8 @@ require('babel-register')();
 module.exports = function(compTitle, fileName) {
   return `import './style.scss';
 import gameData from './data.json';
-
+import urlParse from 'url-parse';
+import validateAuth from '../../globals/validate-auth';
 export default function controller($scope, RequireImages) {
   'ngInject';
 
