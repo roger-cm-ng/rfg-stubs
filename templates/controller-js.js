@@ -5,7 +5,7 @@ module.exports = function(compTitle, fileName) {
 import gameData from './data.json';
 import urlParse from 'url-parse';
 import validateAuth from '../../globals/validate-auth';
-export default function controller($scope, RequireImages) {
+export default function controller($scope, RequireImages, $location, $http) {
   'ngInject';
 
   var url = urlParse($location.absUrl(), true);
