@@ -32,7 +32,6 @@ module.exports = function(compTitle, fileName) {
     </div>
 </div>
 
-<script type="text/javascript" src="index.js"></script>
 </body>
 </html>`;
 }
